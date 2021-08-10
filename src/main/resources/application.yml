@@ -1,0 +1,17 @@
+greeting:
+  message: "hello"
+
+
+quarkus:
+  http:
+    port: 8585
+
+  rabbitmqclient:
+    virtual-host : /
+    username : guest
+    password: guest
+    hostname: localhost
+    port: 5672
+    exchange: quarkus-exchange
+    queue: quarkus-queuq
+
